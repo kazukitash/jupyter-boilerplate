@@ -4,6 +4,13 @@
 
 Visual Studio CodeでJupyter Notebookを操作できるようになる。
 
+## 前提
+
+以下の導入が前提。[setup-macos](https://github.com/kazukitash/setup-macos)でインストール方法を説明しているので参照すること。
+
+  - Visual Studio Code
+  - Docker Desktop
+
 ## Get Started
 
 作業フォルダを作りたいフォルダに移動して、リポジトリをクローンする。
@@ -34,12 +41,23 @@ workフォルダで作業できる。PythonのKernelは`base (Python 3.9.7)`を�
 
 ![](images/03_select-kernel.png)
 
-### 前提
+## ２度目の開き方
 
-以下の導入が前提。[setup-macos](https://github.com/kazukitash/setup-macos)でインストール方法を説明しているので参照すること。
+一度作成したContainerは残っている。
 
-  - Visual Studio Code
-  - Docker Desktop
+`Remote Explorer`の`Containers`にあるフォルダアイコンを押下する。
+
+![](images/04_reopen-container.png)
+
+## 環境の再構築の仕方
+
+`Remote Explorer`の`Containers`にあるxアイコンを押下する。
+
+以上
+
+---
+
+以下、補足説明。
 
 ## 利用しているDocker Image
 
