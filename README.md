@@ -2,16 +2,16 @@
 
 ## Get Started
 
-リポジトリをクローンする。
+作業フォルダを作りたいフォルダに移動して、リポジトリをクローンする。
 
 ``` shell
-git clone hoge
+git clone https://github.com/kazukitash/jupyter-boilerplate.git practice01
 ```
 
 フォルダを移動する。
 
 ``` shell
-cd jupyter-boilerplate
+cd practice01
 ```
 
 VS Codeを起動する。
@@ -22,15 +22,20 @@ code .
 
 `Remote - Containers`拡張機能が入っていない場合はインストールする。`Remote Explorer` タブの `Open Folder in Container` を押下する。
 
-workフォルダで作業できる。
+![](images/01_open-container.png)
+
+![](images/02_open-folder.png)
+
+workフォルダで作業できる。PythonのKernelは`base (Python 3.9.7)`を選択すること。
+
+![](images/03_select-kernel.png)
 
 ### 前提
 
-以下の導入が前提。setup-devでインストール方法を説明しているので参照すること。
+以下の導入が前提。[setup-macos](https://github.com/kazukitash/setup-macos)でインストール方法を説明しているので参照すること。
 
-  - HomeBrew fomula
-    - Visual Studio Code
-    - Docker Desktop
+  - Visual Studio Code
+  - Docker Desktop
 
 ## 利用しているDocker Image
 
