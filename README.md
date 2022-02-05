@@ -1,5 +1,9 @@
 # Jupyter Boilerplate
 
+## できること
+
+Visual Studio CodeでJupyter Notebookを操作できるようになる。
+
 ## Get Started
 
 作業フォルダを作りたいフォルダに移動して、リポジトリをクローンする。
