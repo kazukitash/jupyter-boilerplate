@@ -21,14 +21,13 @@
 
   // Add the IDs of extensions you want installed when the container is created.
   "extensions": [
-	"ms-python.python",
-	"ms-python.vscode-pylance",
-	"ms-toolsai.jupyter",
-	"ms-toolsai.jupyter-keymap",
-	"ms-toolsai.jupyter-renderers",
-	"mechatroner.rainbow-csv",
-	"tomoki1207.pdf"
-]
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-toolsai.jupyter",
+    "ms-toolsai.jupyter-keymap",
+    "ms-toolsai.jupyter-renderers",
+    "mechatroner.rainbow-csv"
+  ]
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
