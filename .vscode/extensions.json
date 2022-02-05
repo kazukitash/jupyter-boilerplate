@@ -1,0 +1,4 @@
+{
+  // VS Code起動時にRemote Containerのインストールを推奨するように設定
+  "recommendations": ["ms-vscode-remote.remote-containers"]
+}

@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  notebook:
+    # https://hub.docker.com/r/jupyter/datascience-notebookからimageをpullする
+    image: jupyter/datascience-notebook:python-3.9.7
+    # ポートの設定('ホスト：コンテナ')
+    ports:
+      - '8888:8888'
+    # 環境変数の設定
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    # 最後にjupyterLabに接続するためのコマンドを実行する。
+    command: start-notebook.sh --NotebookApp.token=''
